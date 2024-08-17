@@ -3,15 +3,15 @@ import Bio from "./_components/Bio"
 import Experiences from "./_components/Experiences"
 
 function App() {
-	return (
-		<>
-			<div className="w-[90%] lg:w-3/5 m-auto p-2">
-				<Header />
-				<Bio />
-				<Experiences />
-			</div>
-		</>
-	)
+   return (
+      <>
+         <div className="m-auto w-[90%] bg-white p-2 text-slate-500 lg:w-3/5">
+            <Header />
+            <Bio />
+            <Experiences />
+         </div>
+      </>
+   )
 }
 
 export default App

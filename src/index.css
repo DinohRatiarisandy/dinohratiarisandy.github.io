@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 
+   light theme:
+      background: bg-white
+      title: slate-900
+      primary color: slate-500
+      secondary color: sky-600
+*/
