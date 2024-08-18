@@ -19,7 +19,7 @@ function WorkCard(props: WorkProps) {
                <a
                   href={props.entrepriseWebsite}
                   target="_blank"
-                  className="font-semibold text-slate-900 transition-colors hover:text-sky-600"
+                  className="font-semibold text-slate-300 transition-colors hover:text-sky-400"
                >
                   {props.entrepriseName}
                </a>

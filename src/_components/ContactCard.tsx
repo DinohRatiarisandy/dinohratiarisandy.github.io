@@ -14,18 +14,20 @@ function ContactCard(props: ContactProps) {
    return (
       <div className="relative flex items-center gap-3 p-2">
          <img
-            className="h-12 rounded-full ring"
+            className="h-10 rounded-full ring-2 ring-sky-600"
             src={profileImg}
             alt="Ratiarisandy's profile"
          />
-         <Icon size={16} title={title} className="absolute left-11 top-10" />
+         <Icon size={14} title={title} className="absolute left-9 top-9" />
          {Boolean(url) ? (
-            <a href={url} className="trasition-colors hover:text-sky-800">
+            <a href={url} target="_blank">
                {" "}
-               <i className="lg:text-xs">{address}</i>
+               <i className="trasition-colors text-slate-300 hover:text-sky-400 lg:text-sm">
+                  {address}
+               </i>
             </a>
          ) : (
-            <i className="lg:text-xs">{address}</i>
+            <i className="text-slate-300 lg:text-sm">{address}</i>
          )}
       </div>
    )
