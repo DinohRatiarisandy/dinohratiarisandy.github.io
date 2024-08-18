@@ -1,16 +1,17 @@
 import Card from "./Card"
 import WorkCard from "./WorkCard"
+import myProfileImg from "../assets/profile/my-profile.jpeg"
 
 const WORKS = [
    {
-      entrepriseImage: "src/assets/profile/my-profile.jpeg",
+      entrepriseImage: myProfileImg,
       entrepriseName: "METFP",
       entrepriseWebsite: "/",
       myPost: "developer REACTJS",
       year: "2021",
    },
    {
-      entrepriseImage: "src/assets/profile/my-profile.jpeg",
+      entrepriseImage: myProfileImg,
       entrepriseName: "Syscomad",
       entrepriseWebsite: "/",
       myPost: "developer Odoo",

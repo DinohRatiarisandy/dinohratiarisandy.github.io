@@ -1,3 +1,5 @@
+import myProfileImg from "../assets/profile/my-profile.jpeg"
+
 function Bio() {
    return (
       <div className="mt-8 flex flex-col gap-8 lg:flex-row lg:items-center lg:gap-12">
@@ -19,7 +21,7 @@ function Bio() {
             <div className="w-64">
                <img
                   className="rounded-full"
-                  src="src/assets/profile/my-profile.jpeg"
+                  src={myProfileImg}
                   alt="Ratiarisandy's profil"
                />
             </div>

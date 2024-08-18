@@ -1,9 +1,9 @@
-import Header from "./_components/Header"
-import Bio from "./_components/Bio"
-import Experiences from "./_components/Experiences"
-import Skills from "./_components/Skills"
-import Hobbies from "./_components/Hobbies"
-import Footer from "./_components/Footer"
+import Header from "./components/Header"
+import Bio from "./components/Bio"
+import Experiences from "./components/Experiences"
+import Skills from "./components/Skills"
+import Hobbies from "./components/Hobbies"
+import Footer from "./components/Footer"
 
 function App() {
    return (

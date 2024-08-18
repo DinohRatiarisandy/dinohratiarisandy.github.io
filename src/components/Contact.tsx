@@ -2,18 +2,19 @@ import Card from "./Card"
 import ContactCard from "./ContactCard"
 import FacebookIcon from "./icons/FacebookIcon"
 import GmailIcon from "./icons/GmailIcon"
+import myProfileImg from "../assets/profile/my-profile.jpeg"
 
 const CONTACTS = [
    {
       icon: GmailIcon,
       title: "Gmail",
-      profileImg: "src/assets/profile/my-profile.jpeg",
+      profileImg: myProfileImg,
       address: "dinohratiarisandy@gmail.com",
    },
    {
       icon: FacebookIcon,
       title: "Facebook",
-      profileImg: "src/assets/profile/my-profile.jpeg",
+      profileImg: myProfileImg,
       address: "Ratiarisandy Dinoh Liantsoa",
       url: "https://facebook.com/ratiarisandy",
    },

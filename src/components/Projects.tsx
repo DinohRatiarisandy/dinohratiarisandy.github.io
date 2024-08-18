@@ -1,45 +1,46 @@
 import Card from "./Card"
 import ProjectCard from "./ProjectCard"
+import myProfileImg from "../assets/profile/my-profile.jpeg"
 
 const PROJECTS = [
    {
-      image: "src/assets/profile/my-profile.jpeg",
+      image: myProfileImg,
       title: "Connect-4 with AI",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       urlGithub: "/",
    },
    {
-      image: "src/assets/profile/my-profile.jpeg",
+      image: myProfileImg,
       title: "2048 with AI",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       urlGithub: "/",
    },
    {
-      image: "src/assets/profile/my-profile.jpeg",
+      image: myProfileImg,
       title: "App desktop to solve knapsack problem",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       urlGithub: "/",
    },
    {
-      image: "src/assets/profile/my-profile.jpeg",
+      image: myProfileImg,
       title: "App desktop to solve knapsack problem",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       urlGithub: "/",
    },
    {
-      image: "src/assets/profile/my-profile.jpeg",
+      image: myProfileImg,
       title: "App desktop to solve knapsack problem",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       urlGithub: "/",
    },
    {
-      image: "src/assets/profile/my-profile.jpeg",
+      image: myProfileImg,
       title: "App desktop to solve knapsack problem",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       urlGithub: "/",
    },
    {
-      image: "src/assets/profile/my-profile.jpeg",
+      image: myProfileImg,
       title: "App desktop to solve knapsack problem",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       urlGithub: "/",
