@@ -60,7 +60,7 @@ const PROJECTS = [
    {
       image: connectFourImg,
       title: "Connect-4 with AI",
-      description: "Connect-4 with AI with unbeatable bot.",
+      description: "Connect-4 game with unbeatable bot (AI).",
       urlGithub:
          "https://github.com/DinohRatiarisandy/connect-four-game-with-AI",
    },

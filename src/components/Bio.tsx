@@ -21,7 +21,7 @@ function Bio() {
                and am a game development enthusiast using the{" "}
                <Code>Godot Engine</Code>. <br /> I have a background in applied
                computer science and artificial intelligence. Currently, I'm
-               working on my SaaS project and my game. Based in
+               working on my SaaS project and my game. I live in
                <Code className="mx-1">🇲🇬 Madagascar</Code>
             </article>
          </section>
