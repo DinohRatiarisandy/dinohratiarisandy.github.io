@@ -7,17 +7,20 @@ const MY_SKILLS = [
    {
       icon: PythonIcon,
       technoName: "Python",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description:
+         "It's my primary language for implementing algorithms. I've used it for 5 years, which means I have advanced quite a bit in Python. 😉",
    },
    {
       icon: ReactIcon,
       technoName: "ReactJs",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description:
+         "I use ReactJS with Typescript for better clarity and to ensure smooth communication with other developers. Combined with Tailwind CSS, it's amazing !🔥",
    },
    {
       icon: AlgorithmIcon,
       technoName: "Algorithm integration",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      description:
+         "I'm a fan of algorithms, especially AI algorithms. I love implementing them in my games and exploring new ones during my free time. 🚀",
    },
 ]
 

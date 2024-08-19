@@ -1,26 +1,30 @@
 import HobbieCard from "./HobbieCard"
-import FacebookIcon from "./icons/FacebookIcon"
 import ItchioIcon from "./icons/ItchioIcon"
 import LeetCodeIcon from "./icons/LeetCodeIcon"
+import TyperacerIcon from "./icons/TyperacerIcon"
 
 const MY_HOBBIES = [
    {
       icon: ItchioIcon,
-      hobbieProfileUrl: "/",
+      hobbieProfileUrl: "https://dinoh-sandys.itch.io/",
       hobbieName: "itch.io",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description:
+         "itch.io is a website for users to host, sell and download indie video games, indie role-playing games, game assets, comics, zines and music.",
    },
    {
       icon: LeetCodeIcon,
-      hobbieProfileUrl: "/",
+      hobbieProfileUrl: "https://leetcode.com/u/dinoh__sandys/",
       hobbieName: "LeetCode",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description:
+         "LeetCode is an online platform for coding interview preparation. The service provides coding and algorithmic problems intended for users to practice coding.",
    },
    {
-      icon: FacebookIcon,
-      hobbieProfileUrl: "/",
-      hobbieName: "Typeracer",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+      icon: TyperacerIcon,
+      hobbieProfileUrl:
+         "https://data.typeracer.com/pit/profile?user=dinoh__sandys",
+      hobbieName: "TypeRacer",
+      description:
+         "TypeRacer is a multiplayer online browser-based typing game. In TypeRacer, player complete typing tests of various texts as fast as possible.",
    },
 ]
 
