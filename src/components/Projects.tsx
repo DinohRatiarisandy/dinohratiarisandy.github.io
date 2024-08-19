@@ -1,6 +1,5 @@
 import Card from "./Card"
 import ProjectCard from "./ProjectCard"
-import myProfileImg from "../assets/profile/my-profile.jpeg"
 import img2048 from "../assets/icon/2048-img.png"
 import eightPuzzleImg from "../assets/icon/eight-puzzle.png"
 import apiImg from "../assets/icon/api-img.png"
