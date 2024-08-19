@@ -1,16 +1,17 @@
 import HobbieCard from "./HobbieCard"
 import FacebookIcon from "./icons/FacebookIcon"
-import ReactIcon from "./icons/ReactIcon"
+import ItchioIcon from "./icons/ItchioIcon"
+import LeetCodeIcon from "./icons/LeetCodeIcon"
 
 const MY_HOBBIES = [
    {
-      icon: ReactIcon,
+      icon: ItchioIcon,
       hobbieProfileUrl: "/",
       hobbieName: "itch.io",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
    },
    {
-      icon: ReactIcon,
+      icon: LeetCodeIcon,
       hobbieProfileUrl: "/",
       hobbieName: "LeetCode",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",

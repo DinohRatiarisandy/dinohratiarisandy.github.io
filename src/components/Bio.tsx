@@ -1,4 +1,6 @@
 import myProfileImg from "../assets/profile/my-profile.jpeg"
+import Code from "./Code"
+import ReactIcon from "./icons/ReactIcon"
 
 function Bio() {
    return (
@@ -6,15 +8,21 @@ function Bio() {
          <section className="about-me flex flex-col gap-2">
             <div>
                <h1 className="text-3xl text-slate-200">Dinoh Ratiarisandy</h1>
-               <h2 className="text-xl text-slate-200">
-                  Software developer and Game developer
+               <h2 className="text-xl text-slate-300">
+                  Front-end developer and Game developer
                </h2>
             </div>
-            <article className="text-lg leading-6 text-slate-400">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-               distinctio vitae architecto, explicabo omnis consequuntur illo
-               perspiciatis provident, quae, reprehenderit nobis sunt aliquam
-               debitis labore id iure numquam ducimus? Vero.
+            <article className="mt-4 text-lg leading-7 text-slate-400">
+               I specialize in front-end development with{" "}
+               <Code>
+                  <ReactIcon size={18} title="ReactIcon" className="inline" />{" "}
+                  ReactJS
+               </Code>{" "}
+               and am a game development enthusiast using the{" "}
+               <Code>Godot Engine</Code>. <br /> I have a background in applied
+               computer science and artificial intelligence. Currently, I'm
+               working on my SaaS project and my game. Based in
+               <Code className="mx-1">🇲🇬 Madagascar</Code>
             </article>
          </section>
          <div className="my-profil avatar m-auto">

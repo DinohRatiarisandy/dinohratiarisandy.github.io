@@ -8,6 +8,7 @@ function GithubIcon(props: IconTypeProps) {
          viewBox="0 0 256 250"
          version="1.1"
          preserveAspectRatio="xMidYMid"
+         className={`${Boolean(props.className) && props.className}`}
       >
          <title>{props.title}</title>
          <g>

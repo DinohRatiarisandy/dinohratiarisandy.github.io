@@ -1,10 +1,11 @@
-import FacebookIcon from "./icons/FacebookIcon"
+import AlgorithmIcon from "./icons/AlgorithmIcon"
+import PythonIcon from "./icons/PythontIcon"
 import ReactIcon from "./icons/ReactIcon"
 import SkillCard from "./SkillCard"
 
 const MY_SKILLS = [
    {
-      icon: ReactIcon,
+      icon: PythonIcon,
       technoName: "Python",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
    },
@@ -14,7 +15,7 @@ const MY_SKILLS = [
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
    },
    {
-      icon: FacebookIcon,
+      icon: AlgorithmIcon,
       technoName: "Algorithm integration",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
    },
