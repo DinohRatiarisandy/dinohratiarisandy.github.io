@@ -1,6 +1,6 @@
-import myProfileImg from "../assets/profile/my-profile.jpeg"
-import Code from "./Code"
+import Code from "./ui/Code"
 import ReactIcon from "./icons/ReactIcon"
+import myProfileImg from "../assets/profiles/my-profile.jpeg"
 
 function Bio() {
    return (

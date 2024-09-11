@@ -1,5 +1,5 @@
-import FacebookIcon from "./icons/FacebookIcon"
 import GithubIcon from "./icons/GithubIcon"
+import FacebookIcon from "./icons/FacebookIcon"
 
 function SocialNetwork() {
    return (
