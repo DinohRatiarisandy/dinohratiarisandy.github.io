@@ -1,8 +1,9 @@
 import React from "react"
-import { IconTypeProps } from "./icons/iconTypeProps"
+
+import { IconPropsType } from "./icons/icon-props-type"
 
 type HobbieCardProps = {
-   icon: React.ComponentType<IconTypeProps>
+   icon: React.ComponentType<IconPropsType>
    hobbieProfileUrl: string
    hobbieName: string
    description: string

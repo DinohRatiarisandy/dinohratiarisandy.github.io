@@ -1,25 +1,33 @@
 import React from "react"
-import { IconTypeProps } from "./icons/iconTypeProps"
+
+import { IconPropsType } from "./icons/icon-props-type"
 
 type ContactProps = {
-   icon: React.ComponentType<IconTypeProps>
+   icon: React.ComponentType<IconPropsType>
    title: string
    profileImg: string
    address: string
    url?: string
 }
 
-function ContactCard(props: ContactProps) {
-   const { icon: Icon, title, profileImg, address, url } = props
+function ContactCard({
+   icon: Icon,
+   title,
+   profileImg,
+   address,
+   url,
+}: ContactProps) {
    return (
-      <div className="relative flex items-center gap-3 p-2">
-         <img
-            className="h-10 rounded-full ring-2 ring-sky-600"
-            src={profileImg}
-            alt="Ratiarisandy's profile"
-         />
-         <Icon size={14} title={title} className="absolute left-9 top-9" />
-         {Boolean(url) ? (
+      <div className="flex items-center gap-3 p-2">
+         <div className="relative">
+            <img
+               className="h-10 rounded-full ring-2 ring-sky-600"
+               src={profileImg}
+               alt="Ratiarisandy's profile"
+            />
+            <Icon size={14} title={title} className="absolute left-7 top-7" />
+         </div>
+         {url ? (
             <a href={url} target="_blank">
                {" "}
                <i className="trasition-colors text-slate-300 hover:text-sky-400 lg:text-sm">

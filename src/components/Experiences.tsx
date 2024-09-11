@@ -1,6 +1,6 @@
-import Contact from "./Contact"
-import Projects from "./Projects"
 import Works from "./Works"
+import Contacts from "./Contacts"
+import Projects from "./Projects"
 
 function Experiences() {
    return (
@@ -8,7 +8,7 @@ function Experiences() {
          <Projects />
          <div className="flex flex-col gap-2 lg:w-64">
             <Works />
-            <Contact />
+            <Contacts />
          </div>
       </div>
    )
