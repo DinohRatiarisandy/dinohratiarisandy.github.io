@@ -1,6 +1,6 @@
-import { IconTypeProps } from "./iconTypeProps"
+import { IconPropsType } from "./icon-props-type"
 
-function PythonIcon(props: IconTypeProps) {
+function PythonIcon(props: IconPropsType) {
    return (
       <svg
          width={props.size}

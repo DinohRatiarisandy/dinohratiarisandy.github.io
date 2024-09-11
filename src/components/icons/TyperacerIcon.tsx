@@ -1,7 +1,7 @@
-import TRImage from "../../assets/icon/typeracer-icon.png"
-import { IconTypeProps } from "./iconTypeProps"
+import TRImage from "../../assets/thumbnails/typeracer-icon.png"
+import { IconPropsType } from "./icon-props-type"
 
-function TyperacerIcon(props: IconTypeProps) {
+function TyperacerIcon(props: IconPropsType) {
    return (
       <img src={TRImage} alt={props.title} className="h-12 object-contain" />
    )

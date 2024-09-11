@@ -1,14 +1,14 @@
-import { IconTypeProps } from "./iconTypeProps"
+import { IconPropsType } from "./icon-props-type"
 
-function FacebookIcon(props: IconTypeProps) {
+function FacebookIcon({ className = "", ...props }: IconPropsType) {
    return (
       <svg
-         width={`${props.size}px`}
-         height={`${props.size}px`}
+         width={props.size}
+         height={props.size}
          viewBox="0 0 256 256"
          version="1.1"
          preserveAspectRatio="xMidYMid"
-         className={props.className ? `${props.className}` : ""}
+         className={className}
       >
          <title>{props.title}</title>
          <g>

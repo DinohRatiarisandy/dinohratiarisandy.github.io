@@ -1,14 +1,14 @@
-import { IconTypeProps } from "./iconTypeProps"
+import { IconPropsType } from "./icon-props-type"
 
-function GithubIcon(props: IconTypeProps) {
+function GithubIcon({ className = "", ...props }: IconPropsType) {
    return (
       <svg
-         width={`${props.size}px`}
-         height={`${props.size}px`}
+         width={props.size}
+         height={props.size}
          viewBox="0 0 256 250"
          version="1.1"
          preserveAspectRatio="xMidYMid"
-         className={`${Boolean(props.className) && props.className}`}
+         className={className}
       >
          <title>{props.title}</title>
          <g>

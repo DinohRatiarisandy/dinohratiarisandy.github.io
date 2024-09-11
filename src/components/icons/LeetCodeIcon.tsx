@@ -1,11 +1,11 @@
-import { IconTypeProps } from "./iconTypeProps"
+import { IconPropsType } from "./icon-props-type"
 
-function LeetCodeIcon(props: IconTypeProps) {
+function LeetCodeIcon(props: IconPropsType) {
    return (
       <svg
-         fill="currentColor"
          width={props.size}
          height={props.size}
+         fill="currentColor"
          viewBox="0 0 32 32"
       >
          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>

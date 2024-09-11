@@ -1,14 +1,14 @@
-import { IconTypeProps } from "./iconTypeProps"
+import { IconPropsType } from "./icon-props-type"
 
-function AlgorithmIcon(props: IconTypeProps) {
+function AlgorithmIcon(props: IconPropsType) {
    return (
       <svg
+         width={props.size}
+         height={props.size}
          viewBox="0 0 60 60"
          stroke-width="1"
          stroke="currentColor"
          fill="currentColor"
-         width={props.size}
-         height={props.size}
       >
          <title>{props.title}</title>
          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>

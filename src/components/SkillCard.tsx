@@ -1,8 +1,9 @@
 import React from "react"
-import { IconTypeProps } from "./icons/iconTypeProps"
+
+import { IconPropsType } from "./icons/icon-props-type"
 
 type SkillCardProps = {
-   icon: React.ComponentType<IconTypeProps>
+   icon: React.ComponentType<IconPropsType>
    technoName: string
    description: string
 }

@@ -1,6 +1,6 @@
-import { IconTypeProps } from "./iconTypeProps"
+import { IconPropsType } from "./icon-props-type"
 
-function ItchioIcon(props: IconTypeProps) {
+function ItchioIcon(props: IconPropsType) {
    return (
       <svg
          width={props.size}
