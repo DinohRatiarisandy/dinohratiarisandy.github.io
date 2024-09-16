@@ -6,16 +6,15 @@ function AlgorithmIcon(props: IconPropsType) {
          width={props.size}
          height={props.size}
          viewBox="0 0 60 60"
-         stroke-width="1"
+         strokeWidth="1"
          stroke="currentColor"
          fill="currentColor"
       >
          <title>{props.title}</title>
-         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
          <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
          ></g>
          <g id="SVGRepo_iconCarrier">
             <circle cx="34.52" cy="11.43" r="5.82"></circle>

@@ -8,16 +8,16 @@ function ItchioIcon(props: IconPropsType) {
          fill="currentColor"
          viewBox="0 0 32.00 32.00"
          stroke="#000000"
-         stroke-width="0.00032"
+         strokeWidth="0.00032"
       >
          <title>{props.title}</title>
-         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+         <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
          <g
             id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             stroke="#CCCCCC"
-            stroke-width="0.128"
+            strokeWidth="0.128"
          ></g>
          <g id="SVGRepo_iconCarrier">
             {" "}
