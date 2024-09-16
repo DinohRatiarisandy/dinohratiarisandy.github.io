@@ -1,22 +1,22 @@
-type ToggleThemeProps = {
-   toggleTheme(isChecked: boolean): void
-}
+import { useTheme } from "../../hooks/useTheme"
 
-function ToggleTheme(props: ToggleThemeProps) {
+function ToggleTheme() {
+   const { theme, setTheme } = useTheme()
+
    return (
-      <div className="toggle-theme flex items-center">
-         <label className="swap swap-rotate">
+      <div>
+         <label className="relative flex cursor-pointer">
             {/* this hidden checkbox controls the state */}
             <input
-               onChange={(e) => props.toggleTheme(e.target.checked)}
+               onChange={() => setTheme(theme === "dark" ? "light" : "dark")}
                type="checkbox"
-               className="theme-controller"
-               value="dark"
+               className="hidden"
+               value={theme}
             />
 
             {/* sun icon */}
             <svg
-               className="swap-off h-[24px] w-[24px] fill-current"
+               className="h-[24px] w-[24px] rotate-0 scale-100 fill-current transition-all dark:-rotate-90 dark:scale-0"
                xmlns="http://www.w3.org/2000/svg"
                viewBox="0 0 24 24"
             >
@@ -25,7 +25,7 @@ function ToggleTheme(props: ToggleThemeProps) {
 
             {/* moon icon */}
             <svg
-               className="swap-on h-[24px] w-[24px] fill-current"
+               className="absolute h-[24px] w-[24px] rotate-90 scale-0 fill-current transition-all dark:-rotate-0 dark:scale-100"
                xmlns="http://www.w3.org/2000/svg"
                viewBox="0 0 24 24"
             >
