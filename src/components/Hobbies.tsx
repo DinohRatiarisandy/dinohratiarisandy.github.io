@@ -7,7 +7,7 @@ function Hobbies() {
          <h5 className="text-2xl text-slate-200">Some of my hobbies...</h5>
          <div className="flex flex-col justify-between gap-3 lg:flex-row">
             {HOBBIES.map(function (hobbie) {
-               return <HobbieCard {...hobbie} />
+               return <HobbieCard key={hobbie.hobbieProfileUrl} {...hobbie} />
             })}
          </div>
       </div>

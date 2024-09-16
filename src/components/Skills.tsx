@@ -7,7 +7,7 @@ function Skills() {
          <h5 className="text-2xl text-slate-200">I love working on...</h5>
          <div className="flex flex-col justify-between gap-3 lg:flex-row">
             {SKILLS.map(function (techno) {
-               return <SkillCard {...techno} />
+               return <SkillCard key={techno.technoName} {...techno} />
             })}
          </div>
       </div>
