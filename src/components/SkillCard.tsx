@@ -14,7 +14,9 @@ function SkillCard(props: SkillCardProps) {
       <div className="p-1">
          <Icon size={48} title={technoName} />
          <div>
-            <h5 className="font-semibold text-slate-300">{technoName}</h5>
+            <h5 className="font-semibold text-slate-700 dark:text-slate-300">
+               {technoName}
+            </h5>
             <article className="text-slate-500">{description}</article>
          </div>
       </div>

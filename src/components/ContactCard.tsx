@@ -30,12 +30,14 @@ function ContactCard({
          {url ? (
             <a href={url} target="_blank">
                {" "}
-               <i className="trasition-colors text-slate-300 hover:text-sky-400 lg:text-sm">
+               <i className="trasition-colors text-slate-700 hover:text-sky-400 lg:text-sm dark:text-slate-300">
                   {address}
                </i>
             </a>
          ) : (
-            <i className="text-slate-300 lg:text-sm">{address}</i>
+            <i className="text-slate-700 lg:text-sm dark:text-slate-300">
+               {address}
+            </i>
          )}
       </div>
    )

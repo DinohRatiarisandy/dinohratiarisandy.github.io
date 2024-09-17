@@ -17,7 +17,9 @@ function ProjectCard({ isNew = false, ...props }: ProjectProps) {
       >
          <img src={props.thumbnail} alt="" className="h-12 rounded" />
          <div className="flex flex-col gap-1">
-            <h4 className="font-semibold text-slate-300">{props.title}</h4>
+            <h4 className="font-semibold text-slate-700 dark:text-slate-300">
+               {props.title}
+            </h4>
             <article className="text-sm text-slate-500">
                {props.description}
             </article>
