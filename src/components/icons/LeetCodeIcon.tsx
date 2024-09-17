@@ -1,11 +1,14 @@
+import { useTheme } from "../../hooks/useTheme"
 import { IconPropsType } from "./icon-props-type"
 
 function LeetCodeIcon(props: IconPropsType) {
+   const { theme } = useTheme()
+
    return (
       <svg
          width={props.size}
          height={props.size}
-         fill="currentColor"
+         fill={`${theme === "dark" ? "#f4f4f4" : "currentColor"}`}
          viewBox="0 0 32 32"
       >
          <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>

@@ -1,14 +1,17 @@
+import { useTheme } from "../../hooks/useTheme"
 import { IconPropsType } from "./icon-props-type"
 
 function AlgorithmIcon(props: IconPropsType) {
+   const { theme } = useTheme()
+
    return (
       <svg
          width={props.size}
          height={props.size}
          viewBox="0 0 60 60"
          strokeWidth="1"
-         stroke="currentColor"
-         fill="currentColor"
+         stroke={`${theme === "dark" ? "#f4f4f4" : "currentColor"}`}
+         fill={`${theme === "dark" ? "#f4f4f4" : "currentColor"}`}
       >
          <title>{props.title}</title>
          <g

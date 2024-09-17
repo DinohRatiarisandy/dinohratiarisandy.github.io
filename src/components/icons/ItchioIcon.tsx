@@ -1,13 +1,15 @@
+import { useTheme } from "../../hooks/useTheme"
 import { IconPropsType } from "./icon-props-type"
 
 function ItchioIcon(props: IconPropsType) {
+   const { theme } = useTheme()
+
    return (
       <svg
          width={props.size}
          height={props.size}
-         fill="currentColor"
+         fill={`${theme === "dark" ? "#f4f4f4" : "currentColor"}`}
          viewBox="0 0 32.00 32.00"
-         stroke="#000000"
          strokeWidth="0.00032"
       >
          <title>{props.title}</title>
@@ -16,7 +18,6 @@ function ItchioIcon(props: IconPropsType) {
             id="SVGRepo_tracerCarrier"
             strokeLinecap="round"
             strokeLinejoin="round"
-            stroke="#CCCCCC"
             strokeWidth="0.128"
          ></g>
          <g id="SVGRepo_iconCarrier">
