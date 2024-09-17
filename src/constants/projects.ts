@@ -1,4 +1,4 @@
-import apiImg from "../assets/thumbnails/api-img.png"
+import apiImg from "../assets/thumbnails/api-img.svg"
 import img2048 from "../assets/thumbnails/2048-img.png"
 import tetrisImg from "../assets/thumbnails/tetris-img.png"
 import sokobanImg from "../assets/thumbnails/sokoban-img.png"
@@ -6,7 +6,7 @@ import eightPuzzleImg from "../assets/thumbnails/eight-puzzle.png"
 import wannaTalkImg from "../assets/thumbnails/wanna-talk-img.svg"
 import skyscraperImg from "../assets/thumbnails/skyscraper-img.png"
 import connectFourImg from "../assets/thumbnails/connect-4-img.png"
-import tictactoeImg from "../assets/thumbnails/tic-tac-toe-img.png"
+import tictactoeImg from "../assets/thumbnails/tic-tac-toe-img.svg"
 import geneticAlgoImg from "../assets/thumbnails/genetic-algo-img.png"
 
 export const PROJECTS = [
