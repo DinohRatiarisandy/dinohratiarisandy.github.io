@@ -7,8 +7,8 @@ import Footer from "./components/Footer"
 
 function App() {
    return (
-      <div className="bg-slate-950">
-         <div className="m-auto w-[95%] bg-slate-950 p-2 text-slate-400 lg:w-3/5">
+      <div className="dark:bg-slate-950">
+         <div className="m-auto w-[95%] p-2 lg:w-3/5">
             <Header />
             <Bio />
             <Experiences />
