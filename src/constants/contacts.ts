@@ -8,6 +8,7 @@ export const CONTACTS = [
       title: "Gmail",
       profileImg: profileFacebook,
       address: "dinohratiarisandy@gmail.com",
+      url: "mailto:dinohratiarisandy@gmail.com?subject=Professional Inquiry",
    },
    {
       icon: FacebookIcon,
