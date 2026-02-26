@@ -1,6 +1,6 @@
 import GmailIcon from "../components/icons/GmailIcon"
 import FacebookIcon from "../components/icons/FacebookIcon"
-import profileFacebook from "../assets/profiles/fb-profile.jpg"
+import profileFacebook from "../assets/profiles/fb-profile.png"
 
 export const CONTACTS = [
    {

@@ -1,6 +1,5 @@
 import Code from "./ui/Code"
-import ReactIcon from "./icons/ReactIcon"
-import myProfileImg from "../assets/profiles/my-profile.jpeg"
+import myProfileImg from "../assets/profiles/my-profile.png"
 
 function Bio() {
    return (
@@ -11,20 +10,20 @@ function Bio() {
                   Dinoh Ratiarisandy
                </h1>
                <h2 className="text-xl text-slate-700 dark:text-slate-300">
-                  Front-end developer and Game developer
+                  Python Developer | Data Analyst | Software Engineer
                </h2>
             </div>
             <article className="mt-4 text-lg leading-7 text-slate-600 dark:text-slate-400">
-               I specialize in front-end development with{" "}
-               <Code>
-                  <ReactIcon size={18} title="ReactIcon" className="inline" />{" "}
-                  ReactJS
-               </Code>{" "}
-               and am a game development enthusiast using the{" "}
-               <Code>Godot Engine</Code>. <br /> I have a background in applied
-               computer science and artificial intelligence. Currently, I'm
-               working on my SaaS project and my game. I live in
-               <Code className="mx-1">🇲🇬 Madagascar</Code>.
+               I specialize in backend development with <Code>Python</Code>,
+               data analysis, and software engineering, while also building
+               games using the <Code>Godot Engine</Code>. <br></br>
+               With a background in applied computer science and artificial
+               intelligence, I focus on designing scalable applications,
+               intelligent systems, and interactive game experiences.<br></br>
+               Currently, I am working on my SaaS project and actively
+               developing my own game. <br></br>
+               Based in
+               <Code className="mx-1">🇲🇬 Madagascar</Code> (UTC+3).
             </article>
          </section>
          <div className="my-profil avatar m-auto">
